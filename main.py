@@ -45,7 +45,7 @@ def comprimir_pdf_gui(root, status_label, botao):
                 f"PDF comprimido com sucesso!\n\nArquivo gerado:\n{saida}",
             )
         except FileNotFoundError as e:
-            # Normalmente é Ghostscript não instalado / não encontrado.
+        
             messagebox.showerror(
                 "Ghostscript não encontrado",
                 f"{e}\n\nDica: após instalar, reabra o terminal/IDE.",
@@ -97,13 +97,12 @@ def criar_interface():
     root = tk.Tk()
     root.title("Compressor de Arquivos")
 
-    # Tamanho fixo simples e centralizado
+    #Tamanho janela
     root.geometry("420x220")
     root.resizable(False, False)
 
-    # Tema "moderno" com ttk
     try:
-        root.call("source", "azure.tcl")  # se você tiver um tema externo
+        root.call("source", "azure.tcl") 
         ttk.Style().theme_use("azure")
     except Exception:
         style = ttk.Style()
@@ -163,4 +162,5 @@ def criar_interface():
 
 
 if __name__ == "__main__":
+
     criar_interface()
