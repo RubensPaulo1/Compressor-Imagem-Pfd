@@ -34,7 +34,6 @@ Ideal para reduzir o tamanho de arquivos antes de enviar por e‑mail ou fazer u
    npm install
    npm run dev
    ```
-   A interface abre em `http://localhost:3000`. O Vite redireciona as chamadas `/api` para a API.
 
 3. Abra **http://localhost:3000** no navegador, escolha PDF ou imagem, ajuste a qualidade (para JPG) e clique em comprimir. O arquivo comprimido será baixado automaticamente. 
 
