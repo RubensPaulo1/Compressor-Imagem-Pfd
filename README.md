@@ -10,13 +10,6 @@ Ideal para reduzir o tamanho de arquivos antes de enviar por e‑mail ou fazer u
 
 ---
 
-### Duas formas de usar
-
-1. **Interface em Python (Tkinter)** — `python main.py`
-2. **Interface em React (navegador)** — API Flask + frontend React (ver abaixo).
-
----
-
 ### Requisitos
 
 - **Python 3.x**
@@ -26,7 +19,7 @@ Ideal para reduzir o tamanho de arquivos antes de enviar por e‑mail ou fazer u
 
 ---
 
-### GUI em React
+### Como rodar
 
 1. **Backend (API)** — na pasta do projeto:
    ```bash
